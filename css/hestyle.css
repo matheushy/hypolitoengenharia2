@@ -17,15 +17,19 @@ body {
     background-size: 100%;
 }
 
+.logotopo{
+    width: 250px;
+    position: absolute;
+    left: 17%;
+}
+
 h1 {
     color: #F2AC29;
     font-size: 40px;
 }
     
 header {
-    /* background-image: url("images/bg-header.png");
-    background-size: 100%;
-    background-repeat: no-repeat; */
+   
     background-color:hsla(205,86%,8%,0.80);
     width: 100%;
     min-height: 225px;
@@ -64,9 +68,6 @@ a {color: white;
 
 .bloco1 {
     height: 700px;
-    /* background-image: url("images/bg-bloco-1.png");
-    background-size: 100%;
-    background-repeat: no-repeat; */
     text-align: center;
     padding-right: 200px;
     padding-left: 257px;
@@ -80,7 +81,6 @@ a {color: white;
 
 .caixa-foto-bloco-1{
     display: inline-block;
-    /* [disabled]max-height: 438px; */
     padding: 0 0 0 0;
     margin: 0 0 0 0;
     max-width: 788px;
@@ -165,10 +165,33 @@ a {color: white;
 /* BLOCO 3 (CARROSEL) */
 
 .bloco3{
-    height: 1080px;
-    background-image: url("../images/bg-bloco-3.png");
-    background-size: 100%;
+   
 }
+
+.content-bloco-3 {
+    
+}
+
+.carousel-inner{
+    height: 100%;
+    min-height:800px; 
+    vertical-align: middle;
+    background-color: red;
+    background-image: url("../images/bg-bloco-3.png");
+}
+
+.carouselExampleIndicators1{
+    
+}
+
+.d-block {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%)
+}
+
+.carousel-indicators {}
 
 /* BLOCO 4 (FORMULARIO) */
 
