@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/* HEADER */   
+
+body {
+    margin: 0;
+    font-family: Myriad Pro;
+    }
+
+.bg-topo-foto {
+    background-image: url("images/bg-bloco-1 v2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    color: #F2AC29;
+    font-size: 40px;
+}
+    
+header {
+    /* background-image: url("images/bg-header.png");
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    background-color:hsla(205,86%,8%,0.80);
+    width: 100%;
+    min-height: 225px;
+}
+
+
+li {
+    display: inline-flex;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.divlogo {
+    float: left;
+    width: 17%;
+    padding-top: 1%; 
+    padding-right: 0;
+    padding-left: 20%;
+    padding-bottom: 0;
+}
+
+.divmenu {
+    float: right;
+    color: white;
+    padding-top: 2%;
+    padding-right: 25%;
+    text-transform: uppercase
+}
+
+a {color: white}
+
+
+/* BLOCO 1 */ 
+
+.bloco1 {
+    height: 450px;
+    /* background-image: url("images/bg-bloco-1.png");
+    background-size: 100%;
+    background-repeat: no-repeat; */
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 257px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+  
+.content-bloco-1 {
+    display: inline-block;
+}
+
+.caixa-foto-bloco-1{
+    display: inline-block;
+    /* [disabled]max-height: 438px; */
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    max-width: 788px;
+    }
+
+.foto-bloco-1 {
+    padding: 0;
+    width: 70%;
+    -webkit-box-shadow: 2px 2px 12px 0 rgba(0,0,0,0.50);
+    box-shadow: 2px 2px 12px 0 rgba(0,0,0,0.50);
+    }
+    
+.caixa-texto-1 {
+    display: inline-block;
+    max-width: 480px;
+    vertical-align: top;
+    }
+
+.titulo-bloco-1 {
+    padding-top: 0px;    
+}
+    
+.texto-bloco-1 {
+    text-align: justify;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* BLOCO 2*/
+
+.bloco2 {
+    background-color: hsla(203,50%,16%,0.90);
+    background-image: url("images/bg-bloco-2.png");
+    background-size: 100%;
+    height: 1080px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.content-bloco-2{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 322px;
+    vertical-align: top;
+}
+
+.caixa-texto-2 {
+    display: inline-block;
+    max-width: 480px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-right: 0px;
+}
+
+.caixa-foto-bloco2 {
+    display: inline-block;
+    height: 0px;
+    max-width: 72%;
+    padding: 0 0 0 0;
+    margin-right: 10%;
+}
+
+.foto-bloco-2 {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0px;
+    /* [disabled]min-height: 10%; */
+    /* [disabled]max-height: 23%; */
+    /* [disabled]min-width: auto; */
+    max-width: 79%;
+}
+
+.texto-bloco-2 {
+    color: white;
+    text-align: justify;
+    
+}
+
+/* BLOCO 3 (CARROSEL) */
+
+.bloco3{
+    height: 1080px;
+    background-image: url("images/bg-bloco-3.png");
+    background-size: 100%;
+}
+
+/* BLOCO 4 (FORMULARIO) */
+
+.bloco4{
+    height: 600px;
+    background-color: hsla(203,50%,16%,0.90);
+    
+}
