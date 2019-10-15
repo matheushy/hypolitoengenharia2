@@ -21,6 +21,7 @@ body {
     width: 250px;
     position: absolute;
     left: 17%;
+	
 }
 
 h1 {
@@ -32,7 +33,7 @@ header {
    
     background-color:hsla(205,86%,8%,0.80);
     width: 100%;
-    min-height: 225px;
+    min-height: 150px;
 }
 
 
@@ -73,6 +74,7 @@ a {color: white;
     padding-left: 257px;
     padding-bottom: 200px;
     padding-top: 200px;
+	background-color: #F5F5F5;
 }
   
 .content-bloco-1 {
@@ -164,31 +166,65 @@ a {color: white;
 
 /* BLOCO 3 (CARROSEL) */
 
-.bloco3{
-   
+.carousel.slide{
+	padding: 10% 0 0 0;
+	min-height:1080px; 
+	background-color: #F5F5F5;
+    background-image: url("../images/bg-bloco-3.png");
+	background-size: auto;
 }
 
-.content-bloco-3 {
-    
+
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='darkblue' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='darkblue' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+
+}
+
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: darkblue;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.6s ease;
+}
+
+.carousel-caption{
+	color: cyan;
 }
 
 .carousel-inner{
-    height: 100%;
-    min-height:800px; 
-    vertical-align: middle;
-    background-color: red;
-    background-image: url("../images/bg-bloco-3.png");
+    
+    
 }
+
+
 
 .carouselExampleIndicators1{
     
 }
 
-.d-block {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,50%)
+.carousel-item {
+
+}
+
+.d-block mx-auto{
+	
 }
 
 .carousel-indicators {}
